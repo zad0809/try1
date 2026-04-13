@@ -1,5 +1,5 @@
 // 打字效果
-const text = "Mechanical Engineering | Robotics | Laser & Sensor Research";
+const text = "Mechanical Engineering | Robotics | Games";
 let index = 0;
 
 function typeEffect() {
