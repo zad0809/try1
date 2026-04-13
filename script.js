@@ -18,7 +18,7 @@ function scrollToSection(id) {
 }
 
 // Email 顯示 (避免爬蟲直接抓)
-const email = "your@email.com";
+const email = "qaz789222@email.com";
 document.getElementById("email").textContent = email;
 
 // 複製 Email
