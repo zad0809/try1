@@ -1,5 +1,5 @@
 // 打字效果
-const text = "Mechanical Engineering | Robotics | Games";
+const text = "Mechanical Engineering | Game Development | Interactive Applications";
 let index = 0;
 
 function typeEffect() {
@@ -18,7 +18,7 @@ function scrollToSection(id) {
 }
 
 // Email 顯示 (避免爬蟲直接抓)
-const email = "qaz789222@email.com";
+const email = "your@email.com";
 document.getElementById("email").textContent = email;
 
 // 複製 Email
