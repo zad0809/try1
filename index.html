@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>自我介紹 - 李哲毓</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <h2 class="logo">My Portfolio</h2>
+    <nav>
+      <a href="#about">關於我</a>
+      <a href="#skills">技能</a>
+      <a href="#projects">專案</a>
+      <a href="#contact">聯絡</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>李哲毓</h1>
+    <p id="typing-text"></p>
+    <button onclick="scrollToSection('about')">了解更多</button>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h2>關於我</h2>
+    <p>
+      我目前就讀於陽明交通大學機械工程學系，擅長機構設計、程式開發與工程分析，
+      對雷射應用與感測器研究領域充滿興趣，並曾參與仿生機器人專題。
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section dark">
+    <h2>技能</h2>
+    <div class="skills">
+      <div class="skill">C++</div>
+      <div class="skill">MATLAB</div>
+      <div class="skill">LabVIEW</div>
+      <div class="skill">SolidWorks</div>
+      <div class="skill">3D Printing</div>
+      <div class="skill">JavaScript</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <h2>專案作品</h2>
+    <div class="projects">
+
+      <div class="card">
+        <h3>仿生機器人專題</h3>
+        <p>設計仿生結構並進行控制與機構整合，提升實作能力與工程整合經驗。</p>
+      </div>
+
+      <div class="card">
+        <h3>3D列印設計與CAM</h3>
+        <p>使用 SolidWorks 建模與 CAM 加工，並完成多個3D列印作品。</p>
+      </div>
+
+      <div class="card">
+        <h3>感測器與雷射應用研究</h3>
+        <p>探索光學雷射與感測技術應用，並整理相關研究資料。</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section dark">
+    <h2>聯絡方式</h2>
+    <p>Email: <span id="email"></span></p>
+    <button onclick="copyEmail()">複製 Email</button>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 李哲毓 | Personal Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
