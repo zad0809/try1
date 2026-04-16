@@ -94,6 +94,10 @@ body {
   background: #1e293b;
 }
 
+.section.dark a {
+  color: #38bdf8;
+}
+
 .skills {
   display: flex;
   flex-wrap: wrap;
