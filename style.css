@@ -74,6 +74,13 @@ body {
   background: #0ea5e9;
 }
 
+.hero-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  margin: 20px 0;
+}
+
 .section {
   padding: 100px 15%;
 }
